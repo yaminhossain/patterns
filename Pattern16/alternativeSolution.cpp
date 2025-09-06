@@ -3,16 +3,15 @@ using namespace std;
 
 void printPattern16(int n)
 {
-    char printingCharacter = 'A';
     for (int i = 0; i < n; i++)
     {
         cout << i + 1 << ": ";
+        char printingCharacter = 'A' + i;
 
         for (char j = 'A'; j <= 'A' + i; j++)
         {
             cout << printingCharacter << " ";
         }
-        printingCharacter += 1;
         cout << endl;
     }
 }
