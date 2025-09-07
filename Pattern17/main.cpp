@@ -11,9 +11,11 @@ void printPattern17(int n)
             cout << " ";
         }
 
+        // characters in the middle
+
         char printingCharacter = 'A';
         int breakPoint = (2 * i + 1) / 2;
-        // characters in the middle
+
         for (int j = 0; j < 2 * i + 1; j++)
         {
             cout << printingCharacter;
